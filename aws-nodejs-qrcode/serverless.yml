@@ -1,0 +1,14 @@
+qrcode:
+  component: "@serverless/aws-lambda"
+  inputs:
+    code: ./src
+    handler: index.qrcode
+
+restApi:
+  component: "@serverless/aws-api-gateway"
+  inputs:
+    description: Serverless REST API
+    endpoints:
+      - path: /qrcode
+        method: GET
+        function: ${qrcode.arn}

@@ -1,0 +1,7 @@
+.env*
+.serverless
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.log
+node_modules
