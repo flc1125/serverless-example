@@ -6,13 +6,13 @@
 
 ## example
 
+### Tencent
+
+- [tencent-nodejs-qrcode](./tencent-nodejs-qrcode) - 二维码服务（nodejs+ApiGateway+SCF）
+
 ### AWS
 
 - [aws-nodejs-qrcode](./aws-nodejs-qrcode) - 二维码服务（nodejs+ApiGateway+Lambda）
-
-### Tencent
-
-...
 
 ### Aliyun
 
