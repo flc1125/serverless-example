@@ -1,6 +1,7 @@
-.env*
+.env
 .serverless
 .DS_Store
+.package-lock.json
 *.sublime-project
 *.sublime-workspace
 *.log
