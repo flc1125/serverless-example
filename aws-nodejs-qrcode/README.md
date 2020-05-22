@@ -13,5 +13,5 @@ cd src && npm install
 ## 发布
 
 ```sh
-sls deploy
+sls
 ```
