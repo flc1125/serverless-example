@@ -12,7 +12,7 @@
 
 ### AWS
 
-- [aws-nodejs-qrcode](./aws-nodejs-qrcode) - 二维码服务（nodejs+ApiGateway+Lambda）
+- [aws-nodejs-qrcode](./aws-nodejs-qrcode) - 二维码服务（未完结版）（nodejs+ApiGateway+Lambda）
 
 ### Aliyun
 
