@@ -1,0 +1,18 @@
+serverless-laravel:
+  component: '@serverless/tencent-laravel'
+  inputs:
+    region: ap-guangzhou
+    functionName: serverless-laravel
+    code: ./
+    functionConf:
+      timeout: 10
+      memorySize: 128
+      environment:
+        variables:
+          TEST: vale
+      vpcConfig:
+        subnetId: ''
+        vpcId: ''
+    apigatewayConf:
+      protocol: https
+      environment: release
