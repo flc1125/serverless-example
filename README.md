@@ -9,6 +9,7 @@
 ### Tencent
 
 - [tencent-nodejs-qrcode](./tencent-nodejs-qrcode) - 二维码服务（nodejs+ApiGateway+SCF）
+- [tencent-php-laravel](./tencent-php-laravel) - PHP-Laravel（php+ApiGateway+SCF）
 
 ### AWS
 
