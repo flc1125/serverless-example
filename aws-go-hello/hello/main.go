@@ -43,3 +43,6 @@ func Handler(ctx context.Context) (Response, error) {
 func main() {
 	lambda.Start(Handler)
 }
+
+// https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/gov2
+// https://github.com/aws/aws-sdk-go

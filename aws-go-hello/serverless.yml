@@ -18,7 +18,7 @@ service: serverless
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
-frameworkVersion: '2'
+frameworkVersion: "2"
 configValidationMode: error
 
 provider:
@@ -52,7 +52,7 @@ provider:
 
 package:
   patterns:
-    - '!./**'
+    - "!./**"
     - ./bin/**
 
 functions:
@@ -62,9 +62,12 @@ functions:
       - httpApi:
           path: /hello
           method: get
-      - 
+      - s3:
+          bucket: serverless-s3-event # 存储桶名称(注意与lambda同区域)
+          event: s3:ObjectCreated:*
+          existing: true # 附加到现有的 S3 存储桶
     layers:
-      - arn:aws:lambda:us-east-1:577513143176:layer:ffmpeg:1
+      - arn:aws:lambda:us-east-1:577513143176:layer:ffmpeg:1  # 层的 ARN 地址
   # world:
   #   handler: bin/world
   #   events:
