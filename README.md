@@ -13,7 +13,7 @@
 
 ### AWS
 
-- [aws-php-bref-qrcode](./aws-php-bref-qrcode) - 基于 [bref](https://bref.sh/) 的二维码服务（+ApiGateway+Lambda）
+- [aws-php-bref-qrcode](./aws-php-bref-qrcode) - 基于 [bref](https://bref.sh/) 的二维码服务（PHP+bref+ApiGateway+Lambda）
 - [aws-nodejs-qrcode](./aws-nodejs-qrcode) - 二维码服务（未完结版）（nodejs+ApiGateway+Lambda）
 
 ### Aliyun
