@@ -1,6 +1,6 @@
 {
     "require": {
-        "bref/bref": "^1.3",
+        "bref/bref": "^2.1",
         "simplesoftwareio/simple-qrcode": "^4.2"
     }
 }
